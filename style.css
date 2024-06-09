@@ -40,6 +40,23 @@ body {
     width: 100px;
 }
 
+.progress-bar {
+	margin: auto;
+	position: relative;
+	height: 10px;
+	width: 20vw;
+	background: #353535;
+	border-radius: 25px;
+}
+
+.progress-fill {
+	position: absolute;
+	height: 10px;
+	width: 50%;
+	background: white;
+	border-radius: 15px;
+}
+
 footer {
     width: 100%;
     text-align: center;
@@ -66,7 +83,12 @@ footer a {
 
 @media screen and (max-width: 500px) {
 	.title {
-		margin-left: 0;
+		margin-left: 0px;
+		font-size: 12px;
+		max-width: 200px;
 	}
-	
+
+	.coffee {
+		padding: 0 10px;
+	}
 }
